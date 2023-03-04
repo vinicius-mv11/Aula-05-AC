@@ -5,13 +5,9 @@
     <meta charset='utf-8'>
     <title>IFSP - Pirituba</title>
   </head>
-  <body ng-controller="ContatosController">
-    
-    <h1>Bem Vindo ao IFSP</h1>
-    
-    <button ng-click="incrementa()">Novo</button>
-    
-    <p>Contatos cadastrados: {{total}}</p>
+  <body>
+
+    <div ng-view></div>
     
     <script src='vendor/angular/angular.js'></script>
     <script src='vendor/angular-route/angular-route.js'></script>
